@@ -157,7 +157,7 @@ var app = {
       visible: true,
       style: new ol.style.style({
         stroke: new ol.style.Stroke({
-          color: '#000',
+          color: '#000000',
           width: 5
         })
       }),
@@ -176,4 +176,3 @@ $('#search-from-input').on('focus', function(){app.activeSearch ='from'});
 $('#search-to-input').on('keyup', {input:'to'}, app.typeAhead);
 $('#clear-to-search').on('click', {input:'to'}, app.clearSearch);
 $('#search-to-input').on('focus', function(){app.activeSearch ='to'});
-
