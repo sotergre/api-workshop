@@ -168,7 +168,7 @@ var app = {
         app.routeLayer.getSource().getExtent(),
         map.getSize()
       )
-      //app.renderDirectionsList();
+      app.renderDirectionsList();
     }
   },
   renderDirectionsList: function(err){
