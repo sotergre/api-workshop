@@ -51,7 +51,7 @@ var app = {
     })
   
   
-  },150)
+  },150),
   
   renderResultsList: function(){
     // step 1
