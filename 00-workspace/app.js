@@ -123,7 +123,7 @@ var app = {
       }
     };
     $.ajax({
-      url: 'https://valhalla.mapzen.com/route?json=' + JSON.stringify(json) + '&api_key' + app.mapzenKey,
+      url: 'https://valhalla.mapzen.com/route?json=' + JSON.stringify(json) + '&api_key=' + app.mapzenKey,
       success: function(data, status, req){
         callback(null, data);
       },
