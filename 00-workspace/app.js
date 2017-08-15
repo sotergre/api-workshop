@@ -198,7 +198,7 @@ var app = {
         // append the instruction into the instruction container
         instructionContainer.append(instruction);
 
-        // if our maneuver has the verbal post transition instruction let's add that as a little subtext
+        ///////// if our maneuver has the verbal post transition instruction let's add that as a little subtext
         if(dir.hasOwnProperty('verbal_post_transition_instruction')){
           var then = $('<div class="directions-then">Then ' + man.verbal_post_transition_instruction + '</div>')
           instructionContainer.append(then)
