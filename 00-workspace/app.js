@@ -155,7 +155,7 @@ var app = {
       map: map,
       opacity: 0.6,
       visible: true,
-      style: new ol.style.style({
+      style: new ol.style.Style({
         stroke: new ol.style.Stroke({
           color: '#000000',
           width: 5
