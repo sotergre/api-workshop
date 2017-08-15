@@ -157,14 +157,14 @@ var app = {
       visible: true,
       style: new ol.style.Style({
         stroke: new ol.style.Stroke({
-          color: '#000000',
+          color: '#2196F3',
           width: 5
         })
       }),
       source: new ol.source.Vector({
         features: []
       })
-    })
+    }),
 
 }
 
